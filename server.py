@@ -231,7 +231,7 @@ class MyAssistant:
         self.client = ElevenLabs(
                         api_key="sk_509a398a18ec0402791eae0b34adfbfd97286c9bc4ba5845",
                         )
-        genai.configure(api_key="AIzaSyCZ8Y3HFEid_zXKfE8Qn1itTWmrdyIpTZ0")
+        genai.configure(api_key="API HERE")
 
         logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
     
